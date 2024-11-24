@@ -70,8 +70,7 @@ button.cancel {
 
 .modal {
   display: flex;
-  gap: 20px;
-  flex-direction: row;
+  gap: 16px;
   padding: 16px;
 }
 
@@ -81,15 +80,13 @@ button.cancel {
 
 .header-button {
   display: flex;
-  gap: 150px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
   margin-bottom: 8px;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
-.button {
+div.button {
   margin-top: 16px;
 }
